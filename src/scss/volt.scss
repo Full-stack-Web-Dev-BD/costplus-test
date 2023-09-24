@@ -1,0 +1,75 @@
+// =========================================================
+// * Volt React Dashboard
+// =========================================================
+
+// * Product Page: https://themesberg.com/product/dashboard/volt-react
+// * Copyright 2021 Themesberg (https://www.themesberg.com)
+// * Official Repository: https://github.com/themesberg/volt-react-dashboard
+// * License: MIT License (https://themesberg.com/licensing)
+
+// * Designed and coded by https://themesberg.com
+
+// =========================================================
+
+// * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. Please contact us to request a removal.
+
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800&display=swap');
+
+// Bootstrap mixins and functions
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+
+// Change variables here
+@import "volt/variables";
+
+// Bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Vendor
+@import "volt/vendor";
+
+// volt mixins & functions
+@import "volt/mixins";
+@import "volt/functions";
+
+// Utilities
+@import "volt/reboot";
+@import "volt/utilities";
+
+// Layout
+@import "volt/layout";
+
+// Components
+@import "volt/components";
+
+// write your custom styles here!
+.sign-in-sidebar {
+    max-width: 450px;
+    background-color: #1C1E53;
+    // Add your other sidebar styles here
+
+    @media screen and (max-width: 1200px) and (min-width: 800px) {
+        max-width: 300px;
+        // Add styles for medium-sized screens here
+    }
+
+    @media screen and (max-width: 800px) and (min-width: 0px) {
+        display: none !important;
+        // Add styles for small screens here
+    }
+}
+
+//custom css
+
+div#country div.input-group select {
+    position: relative;
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    border-top-right-radius: 0.5rem;
+    border: 0.0625rem solid #d1d7e0;
+    border-bottom-right-radius: 0.5rem;
+    border-left: 0px;
+    height: 40px;
+}
+

@@ -1,0 +1,12 @@
+.optoin_header {
+    font-weight: 800 !important;
+    padding-top: 30px !important;
+    color: black;
+}
+.parts_image img{
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out; 
+}
+.parts_image img:hover{
+    transform: scale(1.2)
+}

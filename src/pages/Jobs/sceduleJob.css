@@ -1,0 +1,27 @@
+.scedule_jobs {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.scedule_jobs button {
+    color: white;
+    padding: 8px 50px;
+    margin-top: 20px;
+    background-color: #161842;
+}
+
+.scedule_jobs span {
+    width: 60%;
+    text-align: center;
+    border: 1px solid #1C1919;
+    border-radius: 3px;
+    font-size: 26px;
+    margin-top: 10px;
+}
+
+.job_input {
+    border-radius: 4px;
+}

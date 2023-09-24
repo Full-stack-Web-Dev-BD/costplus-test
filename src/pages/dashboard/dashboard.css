@@ -1,0 +1,174 @@
+._up,
+._up h6 {
+    color: #10B981
+}
+
+.h-220 {
+    min-height: 220px !important;
+}
+
+.st_title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+.st_title span {
+    margin: 10px 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #175DAF;
+}
+
+.border-btn {
+    border: 1px solid #9a9899;
+    padding: 5px 20px;
+    margin: 10px 0;
+}
+
+.material_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid #73737361;
+    width: 200px;
+    padding: 20px;
+    border-radius: 11px;
+}
+
+.btn_cont {
+    background: #161842;
+    color: white;
+    padding: 7px 30px;
+}
+
+/* up mui */
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    text-transform: capitalize !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+[data-theme-version="light"] .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #1C1E53 !important;
+}
+[data-theme-version="dark"] .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    color: #17a2b8 !important;
+}
+
+.css-1aquho2-MuiTabs-indicator {
+    background-color: #1C1E53 !important;
+    height: 5px !important;
+}
+
+.css-1gsv261 {
+    background-color: white;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+    padding: 20px;
+}
+
+.job_tab_wrap {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 0 25px;
+}
+
+.status_btn {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.in_progress {
+    background-color: #29D83B;
+}
+
+.in_stop {
+    background-color: #E52D2D;
+}
+
+.in_completed {
+    background-color: #4092DE;
+}
+
+/* single_part  */
+
+.single_part {
+    padding: 60px 0;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #8080802b;
+}
+
+.single_part .part {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+.single_part .part h6 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #808080b8;
+}
+
+.update_profile button {
+    color: white;
+    padding: 8px 50px;
+    margin-top: 20px;
+    background-color: #161842;
+}
+
+/* file Upload */
+.file_upload_box {
+    border: 2px dashed #70BABF;
+    border-radius: 10px;
+    padding: 100px 0;
+}
+
+.common_button {
+    color: white;
+    padding: 8px 50px;
+    margin-top: 20px;
+    background-color: #161842;
+}
+
+.dragging {
+    border-color: #E52D2D;
+}
+
+
+
+/* @media (min-width: 1281px) {}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+@media (min-width: 481px) and (max-width: 767px) {}
+
+@media (min-width: 320px) and (max-width: 480px) {} */
+/* responsive */
+@media (min-width: 1281px) {}
+
+@media (min-width: 1025px) and (max-width: 1280px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .pie_holder span{
+        left: 35% 
+    }
+}

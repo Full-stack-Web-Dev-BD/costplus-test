@@ -1,0 +1,110 @@
+:root {
+    --light-color: white;
+    --deep-dark: #161842;
+    --light-dark: #1c1e53;
+    --active-color: #17a2b8;
+}
+
+.content {
+    min-height: 100vh;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+[data-theme-version="dark"] {
+    color: var(--light-color)
+}
+
+/* COLOR Light */
+[data-theme-version="dark"] .scedule_jobs h3,
+[data-theme-version="dark"] .nav-link span,
+[data-theme-version="dark"] .y_center h3,
+[data-theme-version="dark"] .y_center h4,
+[data-theme-version="dark"] .y_center h5,
+[data-theme-version="dark"] .pie_holder span,
+[data-theme-version="dark"] .st_title h3,
+[data-theme-version="dark"] table thead tr th,
+[data-theme-version="dark"] table tbody tr th,
+[data-theme-version="dark"] table tbody tr td,
+[data-theme-version="dark"] .css-11xur9t-MuiPaper-root-MuiTableContainer-root h4,
+[data-theme-version="dark"] .sc_jobs_content span,
+[data-theme-version="dark"] .sc_jobs_content svg,
+[data-theme-version="dark"] .single_parts h2,
+[data-theme-version="dark"] .single_parts p,
+[data-theme-version="dark"] .single_parts span,
+[data-theme-version="dark"] .single_parts h2,
+[data-theme-version="dark"] .contact_page h3 ,
+[data-theme-version="dark"] .dropdown-item a ,
+[data-theme-version="dark"] .pricing_section .sec-title h2 ,
+[data-theme-version="dark"] .dir_count ,
+[data-theme-version="dark"] .p_qty ,
+[data-theme-version="dark"] .p_s_name ,
+[data-theme-version="dark"] .p_mFile ,
+[data-theme-version="dark"] .form-group label ,
+[data-theme-version="dark"] .text-gray ,
+[data-theme-version="dark"] .job_details p ,
+[data-theme-version="dark"] .job_details h4 ,
+[data-theme-version="dark"] .dl_text ,
+[data-theme-version="dark"] .css-heg063-MuiTabs-flexContainer button ,
+[data-theme-version="dark"] .dl_form label ,
+[data-theme-version="dark"] .dl_form h4 ,
+[data-theme-version="dark"] .dl_form h5 ,
+[data-theme-version="dark"] .dl_form p ,
+[data-theme-version="dark"] .dl_form p small ,
+[data-theme-version="dark"] .job_tab_wrap h4
+{
+    color: var(--light-color) !important;
+}
+
+/* BG Deep Dark */
+[data-theme-version="dark"] .content {
+    background-color: var(--deep-dark);
+}
+
+/* BG Light Dark */
+[data-theme-version="dark"] .navbar,
+[data-theme-version="dark"] .css-bhp9pd-MuiPaper-root-MuiCard-root,
+[data-theme-version="dark"] .css-11xur9t-MuiPaper-root-MuiTableContainer-root,
+[data-theme-version="dark"] .skeleton,
+[data-theme-version="dark"] .dropdown-menu ,
+[data-theme-version="dark"] .css-1gsv261
+{
+    background-color: var(--light-dark);
+}
+
+
+[data-theme-version="dark"] .scedule_jobs button {
+    background-color: var(--active-color);
+}
+
+
+/* border bottom */
+
+[data-theme-version="dark"] table thead tr th,
+[data-theme-version="dark"] table tbody tr th,
+[data-theme-version="dark"] table tbody tr td {
+    border-bottom: 1px solid var(--deep-dark)
+}
+
+[data-theme-version="dark"] .border-btn {
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+[data-theme-version="dark"] input,
+[data-theme-version="dark"] textarea {
+    background-color: var(--light-dark);
+    color: white;
+    border: 1px solid #17a2b8;
+}
+
+[data-theme-version="dark"] .input-group-text{
+    background-color: var(--light-dark);
+}
+
+[data-theme-version="dark"] .custom_search_input {
+    border: 1px solid #17a2b8;
+
+}

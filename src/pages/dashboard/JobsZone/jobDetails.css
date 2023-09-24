@@ -1,0 +1,14 @@
+._clock{
+    text-align: center;
+    background: #eceff1;
+}
+._clock svg {
+    font-size: 300px;
+    color: #1c1e53;
+}
+.btn_common{    
+    color: white;
+    padding: 8px 50px;
+    margin-top: 20px;
+    background-color: #161842;
+}
